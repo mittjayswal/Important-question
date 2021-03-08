@@ -1,4 +1,4 @@
-package com.as.mitt.javainterview;
+package practice_program;
 
 
 /*Write a program to find top two maximum numbers in the

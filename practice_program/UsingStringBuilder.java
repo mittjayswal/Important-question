@@ -1,4 +1,4 @@
-package reverseString;
+package practice_program;
 
 public class UsingStringBuilder {
 	/*Using built in reverse() method of the StringBuilder 

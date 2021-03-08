@@ -1,4 +1,4 @@
-package reverseString;
+package practice_program;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.as.mitt.javainterview;
+package practice_program;
 
 public class FibonaciiSeries {
 

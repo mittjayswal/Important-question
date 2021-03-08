@@ -1,4 +1,4 @@
-package com.as.mitt.test;
+package practice_program;
 
 import static org.junit.jupiter.api.Assertions.*;
 

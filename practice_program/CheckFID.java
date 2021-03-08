@@ -1,4 +1,4 @@
-package com.as.mitt.test;
+package practice_program;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -13,34 +13,34 @@ Check if given string contains a valid Federal Identification (FID) number.
 If it is not valid, return "invalid". 
 If it is valid, convert the string to one of two formats, depending on the value of the input  parameter EntityType :
  
-i)                    If the EntityType value is “P” (Personal), convert the string to "XXX-XX-XXXX" format.  
-ii)                   If the EntityType value is “B” (Business), convert the string to "XX-XXXXXXX" format.  
+i)                    If the EntityType value is ï¿½Pï¿½ (Personal), convert the string to "XXX-XX-XXXX" format.  
+ii)                   If the EntityType value is ï¿½Bï¿½ (Business), convert the string to "XX-XXXXXXX" format.  
  
-You can assume the EntityType is set correctly by the user to either “P” or “B.”
+You can assume the EntityType is set correctly by the user to either ï¿½Pï¿½ or ï¿½B.ï¿½
  
-Valid input formats when EntityType = “P” are:
-123-44-9876   (“dashes” in the correct position)
+Valid input formats when EntityType = ï¿½Pï¿½ are:
+123-44-9876   (ï¿½dashesï¿½ in the correct position)
 123 44 9876	(spaces in the correct position)
 123449876    (No spaces)
 
 You solution must also verify that only valid numbers/characters are entered.
  
-If the user inputs any other format than the above 3, the program should return “Invalid entry.”  
-For example, “123-44 9876”  is invalid because it uses one “-“ and one space.
+If the user inputs any other format than the above 3, the program should return ï¿½Invalid entry.ï¿½  
+For example, ï¿½123-44 9876ï¿½  is invalid because it uses one ï¿½-ï¿½ and one space.
  
-Valid input formats when EntityType = “B” are:
+Valid input formats when EntityType = ï¿½Bï¿½ are:
 98-1234567	(dash in the correct position for a business FID)
 981234567  	(no dashes)
 98 1234567 	(space in the correct position for a business FID)
 
 
-ALSO VALID ARE ANY VALID Personal FID’s, for example:
+ALSO VALID ARE ANY VALID Personal FIDï¿½s, for example:
 981-23-4567	(this is because sometimes people enter the same format at personal without knowing the FID is broken up differently.)
  
 Examples
-222-44-9876  and EntityType=”P”                                         	222-44-9876
-123-44-5678  and EntityType=”B”                                         	12-34456789
-ABC-44-5678  and EntityType=”B”                         	Invalid Entry
+222-44-9876  and EntityType=ï¿½Pï¿½                                         	222-44-9876
+123-44-5678  and EntityType=ï¿½Bï¿½                                         	12-34456789
+ABC-44-5678  and EntityType=ï¿½Bï¿½                         	Invalid Entry
  */
 public class CheckFID {
 

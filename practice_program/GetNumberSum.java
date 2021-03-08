@@ -1,4 +1,4 @@
-package com.as.mitt.javainterview;
+package practice_program;
 
 /*Write a program to find sum of each digit in the given number using recursion.*/
 

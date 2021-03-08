@@ -1,6 +1,5 @@
-package com.as.mitt.multithreading;
+package practice_program;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
